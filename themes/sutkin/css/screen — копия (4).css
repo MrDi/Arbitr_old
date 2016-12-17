@@ -884,8 +884,6 @@ body.menu-open {
 		width: 100%;
 		min-width: 100%;
 	}
-	
-	
 }
 
 .header_i .lang {
@@ -987,7 +985,7 @@ body.menu-open {
 .btn-menu .menu-transition {
 	cursor: pointer;
 	width: 38px;
-	height: 34px;
+	height: 25px;
 	margin: 35px;
 	position: relative;
 	margin-left: 50px;
@@ -1915,9 +1913,6 @@ footer {
 	position: relative;
 	display: flex;
 	justify-content: space-between;
-	align-items: flex-end;
-	margin-bottom: 35px;
-	bottom: 21px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
@@ -1965,7 +1960,6 @@ footer {
 	letter-spacing: 1px;
 	z-index: 0;
 	position: relative;
-	padding-bottom: 0;
 }
 
 @media only screen and (max-width: 767px) {
@@ -2836,7 +2830,7 @@ footer {
 }
 
 @media only screen and (max-width: 767px) {
-	.home-header h1 {
+	.home-header .slider-home_i li h1 {
 		font-size: 32px;
 		line-height: 36px;
 		padding-bottom: 10px;
@@ -8118,43 +8112,6 @@ h3 {
     width: 100%;
     height: 100%;
     background: #000;
-    background: radial-gradient(circle, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.33));
+    background: radial-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.33));
     top: 0;
-}
-
-.dit p {
-    display: flex;
-    align-items: center;
-    font-size: 1rem;
-    color: #b2b2b2;
-    line-height: 22px;
-    font-family: 'GothamProRegular', sans-serif;
-    letter-spacing: 1px;
-}
-
-.dit p a {
-    color: #b2b2b2;
-    transition: color 0.4s ease;
-}
-
-svg#group_blue {
-    fill: rgb(0, 0, 0);
-    /* fill-opacity: 0.3; */
-}
-
-path {}
-
-.dit p a.logo_dit {
-    opacity: 0.3;
-    transition: opacity 0.4s ease;
-}
-
-svg#group_blue:hover {}
-
-.dit p a.logo_dit:hover {
-    opacity: 1;
-}
-
-.dit p a:hover {
-    color: white;
 }

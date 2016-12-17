@@ -707,5 +707,5 @@ function initialize(lat, lng) {
 }
 
 jQuery(function($){
-	$(".phone-mask").mask("+389 (99) 999-99-99");
+	$(".phone-mask").mask("+7 (999) 999-99-99");
 });
