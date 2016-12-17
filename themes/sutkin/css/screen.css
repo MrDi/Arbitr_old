@@ -3006,14 +3006,14 @@ footer {
 }
 
 .home-partners .list .text {
-	width: 400px;
+	width: 542px;
 }
 
 .home-partners .list .text h3 {
 	font-size: 30px;
 	line-height: 38px;
 	font-family: 'AthelasRegular', sans-serif;
-	color: #70bb1f;
+	color: #5971bb;
 	text-transform: uppercase;
 	letter-spacing: 3px;
 	padding-bottom: 32px;
@@ -3225,8 +3225,9 @@ footer {
 
 .home-partners .list.list-right .text {
 	float: right;
-	padding-right: 64px;
+	padding-right: 0;
 	padding-bottom: 57px;
+	padding-left: 0px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
@@ -3271,7 +3272,7 @@ footer {
 }
 
 .home-partners .list.list-right .images {
-	left: 53px;
+	left: 0;
 	top: -5px;
 }
 
@@ -3298,8 +3299,9 @@ footer {
 
 .home-partners .list.list-right .images .img.img_p {
 	position: absolute;
-	top: -119px;
-	right: -66px;
+	top: -24px;
+	right: -52px;
+	z-index: 0;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
@@ -7947,4 +7949,20 @@ h3 {
 .s_icon.s_icon-4 {
     background: url(/images/icons/megaphone.svg);
     background-size: cover;
+}
+
+
+.img.img_w {
+    position: relative;
+    z-index: 1;
+    top: 120px;
+}
+
+.half {
+    width: 50%;
+    height: 100%;
+    top: 0;
+    position: absolute;
+    border-right: 1px solid red;
+    z-index: 0;
 }
