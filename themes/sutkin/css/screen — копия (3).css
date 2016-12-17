@@ -3229,7 +3229,7 @@ footer {
 .home-partners .list.list-right .text {
 	float: right;
 	padding-right: 0;
-	padding-bottom: 46px;
+	padding-bottom: 57px;
 	padding-left: 0px;
 }
 
@@ -8004,10 +8004,10 @@ h3 {
 }
 
 .img.img_p img {
-    width: 272px;
+    width: 270px;
 }
 
 .img.img_w img {
-    width: 461px;
-    margin-left: 32px;
+    width: 454px;
+    margin-left: 36px;
 }
