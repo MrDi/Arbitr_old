@@ -3473,7 +3473,7 @@ footer {
 
 .results .title {
 	text-align: center;
-	padding: 0 0 142px 0;
+	padding: 0px 0 68px 0;
 }
 
 .results .title h2 {
@@ -8018,4 +8018,47 @@ h3 {
 
 .results span.right_el {
     background: #ffffff;
+}
+
+.list.list-top.clearfix {
+    color: white;
+    display: flex;
+    font-family: 'GothamProLight', sans-serif;
+    letter-spacing: -2px;
+}
+
+.list.list-top.clearfix {}
+
+.list_left {
+    width: 50%;
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.list_right {
+    width: 50%;
+    text-align: left;
+}
+
+.more_2 {
+    font-size: 9.5rem;
+    letter-spacing: -5px;
+}
+
+.c_l {
+}
+
+.more {
+    text-align: left;
+    font-size: 2rem;
+    color: #5971bb;
+}
+
+.more_3 {
+    font-size: 2.95rem;
+}
+
+.c_r {
+    padding-left: 60px;
 }
