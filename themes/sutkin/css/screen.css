@@ -332,7 +332,7 @@ legend {
 	font-family: inherit;
 	font-weight: inherit;
 	font-style: inherit;
-	font-size: 100%;
+	font-size: 15px;
 	outline: 0;
 	padding: 0;
 	margin: 0;
@@ -389,7 +389,7 @@ q {
 
 .title h2 {
 	font-family: 'AthelasRegular', sans-serif;
-	font-size: 36px;
+	font-size: 2rem;
 	line-height: 38px;
 	text-transform: uppercase;
 	color: #000;
@@ -7884,3 +7884,67 @@ only screen and (min-device-pixel-ratio: 1.5) {
     width: 100%;
 }
 \ No newline at end of file
+
+.flex-w {}
+
+.flex-w {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+h3 {
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* flex-wrap: wrap; */
+}
+
+.items_s {
+    width: 45%;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.flex-w h3 {
+    font-size: 1.7rem;
+    color: #5971bb;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 2.2rem;
+}
+
+p {}
+
+.flex-w p {
+    font-size: 1.3rem;
+    color: #242423;
+}
+
+.s_icon {
+    width: 5rem;
+    height: 5rem;
+    margin: 0 auto;
+    background: red;
+    margin-bottom: 2.2rem;
+}
+
+.s_icon.s_icon-1 {
+    background: url(/images/icons/judge.svg);
+    background-size: cover;
+}
+
+.s_icon.s_icon-2 {
+    background: url(/images/icons/coins.svg);
+    background-size: cover;
+}
+
+.s_icon.s_icon-3 {
+    background: url(/images/icons/justice.svg);
+    background-size: cover;
+}
+
+
+.s_icon.s_icon-4 {
+    background: url(/images/icons/megaphone.svg);
+    background-size: cover;
+}
