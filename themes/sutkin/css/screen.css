@@ -3451,7 +3451,7 @@ footer {
 }
 
 .results {
-	background: #101010;
+	background: #242424;
 }
 
 @media only screen and (max-width: 767px) {
@@ -3473,7 +3473,7 @@ footer {
 
 .results .title {
 	text-align: center;
-	padding: 0px 0 68px 0;
+	padding: 0px 0 59px 0;
 }
 
 .results .title h2 {
@@ -8025,6 +8025,7 @@ h3 {
     display: flex;
     font-family: 'GothamProLight', sans-serif;
     letter-spacing: -2px;
+    margin-bottom: 3rem;
 }
 
 .list.list-top.clearfix {}
@@ -8042,23 +8043,58 @@ h3 {
 }
 
 .more_2 {
-    font-size: 9.5rem;
+    font-size: 8.5rem;
     letter-spacing: -5px;
 }
 
-.c_l {
-}
+.c_l {padding=r: 3;padding-right: 30px;}
 
 .more {
     text-align: left;
-    font-size: 2rem;
+    font-size: 1.7rem;
     color: #5971bb;
+    padding-left: 1px;
 }
 
 .more_3 {
-    font-size: 2.95rem;
+    font-size: 2.65rem;
 }
 
 .c_r {
-    padding-left: 60px;
+    padding-left: 120px;
+    position: relative;
 }
+
+.c_t {
+    display: flex;
+}
+
+.yers {
+    font-size: 5.9rem;
+}
+
+.yers2 {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    margin-top: 8px;
+    color: #5971bb;
+}
+
+.yers3 {
+    font-size: 2rem;
+}
+
+.le_c {
+    margin-left: 22px;
+}
+
+.le_c {
+    /* display: flex; */
+}
+
+.c_b {
+    margin-top: 2rem;
+    display: flex;
+}
+
+.c_r:before {content: '';width: 1px;height: 144%;background: #494949;display: block;position: absolute;top: -19%;left: 60px;}
