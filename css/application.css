@@ -3,10 +3,10 @@
 }
 /*main menu*/
 .sub-menu .list li.active a {
-	color: #70bb1f;
+	color: #5971bb;
 }
 .no-touch .sub-menu .list li.active a:hover {
-	color: #70bb1f;
+	color: #5971bb;
 }
 .hide-info {
 	position: fixed;

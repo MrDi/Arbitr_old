@@ -75,108 +75,7 @@ function setEqualHeight(columns) {
 
 
 $(document).ready(function() {
-	
-	$('.tati+a.bottom_arr').click(function(){
-		
-	});
-	
 
-/*
-	$.fn.vimeoAction = function (action, value) {
-		var url = this.attr('src').split('?')[0];
-		if (/^\/\//.test(url)) {
-			url = window.location.protocol + url;
-		}
-		var data = {
-			method: action
-		};
-		if (value) {
-			data.value = value;
-		}
-		this.get(0).contentWindow.postMessage(data, url);
-	};
-
-	if (window.addEventListener) {
-		window.addEventListener('message', onMessageReceived, false);
-	}
-	else {
-		window.attachEvent('onmessage', onMessageReceived, false);
-	}
-
-	// Handle messages received from the player
-	function onMessageReceived(e) {
-		try {
-			var data = $.parseJSON(e.data);
-		} catch (e) {
-			return;
-		}
-		var event = data.event;
-		if (!event) {
-			return;
-		}
-		var id = data.player_id;
-		if (!id) {
-			return;
-		}
-		var player = $('#' + id);
-		if (player.length) {
-			player.trigger('vimeo_' + event);
-		}
-	}
-
-
-
-		$('.video-drop_i iframe').on('vimeo_ready', function () {
-			var player = $(this);
-			player.vimeoAction('addEventListener', 'pause');
-			player.vimeoAction('addEventListener', 'finish');
-			player.on('vimeo_pause vimeo_finish', function () {
-				//$('.video-drop .playpause').fadeIn();
-			});
-			$('.video-drop .playpause').off('click').on('click', function (e) {
-				e.preventDefault();
-				player.
-				//$(this).fadeOut(function () {
-					console.log(player.vimeoAction('paused'));
-					player.vimeoAction('play');
-				//});
-			});
-		});
-		
-*/
-
-
-
-
-$('.btn-popup-video').on('click', function(e){
-	e.preventDefault();
-	setTimeout(function(){
-	   
-		$('.video-drop .close_i').addClass('active')
-		$('.video-drop').slideDown();
-		var _video = $('.video-drop_i video');
-		_video.attr('src', _video.data('source'));
-		_video[0].play();
-$('.playpause').addClass('active')
-	}, 1000)
-});
-$('.playpause').on('click', function(e){
-	e.preventDefault();
-   
-	if($(this).hasClass('active')){
-	   $(this).removeClass('active');
-		$('.video-drop_i video')[0].pause();
-	}else{
-		 $(this).addClass('active')
-		$('.video-drop_i video')[0].play(); 
-	}
-})
-$('.video-drop .close_i').on('click', function(){
-	$(this).removeClass('active');
-	$('.home-header').removeClass('open-line')
-	$('.video-drop').slideUp();
-    $('.video-drop_i video')[0].pause();
-});
 
 /*$('.green-text__btn').on('click', function(e){
 e.preventDefault();
@@ -188,59 +87,13 @@ e.preventDefault();
 	}, 1000)
    
 })*/
+	
+	
 $('.hide-info .close').on('click', function(e){
 	e.preventDefault();
 	$('.hide-info').fadeOut();
 	 $('.hide-info .close .close_i').removeClass('active');
 });
-/*$('.play-work .arrow-icon, .play-home .arrow-icon').on('click', function(){
-	var btn = $(".btn-popup-video");
-	setTimeout(function(){fancyboxInit(btn)}, 1000)
-});*/
-
-var homeSlider = $('.slider-home_i ul');
-	if(homeSlider.children().length > 1) {
-		homeSlider.on('initialized.owl.carousel', function () {
-			homeSlider.css("opacity", 1);
-		});
- 
-		homeSlider.owlCarousel({
-			margin: 10,
-		loop: true,
-		autoplay: 1000,
-		touchDrag: false,
-		mouseDrag: false,
-		autoplayTimeout: 4000,
-		smartSpeed: 2000,
-		items: 1
-		});
-	}
-	else{
-		homeSlider.css("opacity", 1);
-	}
-
-	var practiceSlider = $('.practice-slide_i ul');
-		if (practiceSlider.children().length > 1) {
-		practiceSlider.on('initialized.owl.carousel', function() {
-			practiceSlider.css("opacity", 1);
-		});
-		practiceSlider.owlCarousel({
-			margin: 0,
-		nav: true,
-		loop: true,
-		autoplay: false,
-		touchDrag: true,
-		mouseDrag: false,
-		autoplayTimeout: 8000,
-		smartSpeed: 2000,
-		items: 1
-		}).on('translated.owl.carousel', function(e) {
-			$('.practice-slide-pag .current').html(e.page.index + 1);
-		});
-	}
-
-
-	
 
 	if (mobile) {
 	/*	var lawyerSlider = $('.practice-lawyer__list');
@@ -345,12 +198,14 @@ setEqualHeight(columns);
 		}, 1000);
 	});
 
+	
 	$('.sub-menu .close').on('click', function(e) {
 		e.preventDefault();
 		$('body').removeClass('menu-open');
 		$(this).find('.close_i').removeClass('active');
 	});
 
+	
 	if (!mobile) {
 		$('.item-woman, .col-right .name').on('click', function() {
 			$(this).closest('.team').find('.drop-list-w').fadeIn();
@@ -399,6 +254,11 @@ setEqualHeight(columns);
 			scrollTop: 0
 		}, 2000);
 	});
+	
+		$('.close_i.active').on('click', function(e) {
+			$('.map').removeClass('active');
+	});
+	
 	$('.arrow-icon').on('click', function(e) {
 		e.preventDefault();
 		$.scrollTo('.home-partners',600 );
@@ -428,13 +288,6 @@ setEqualHeight(columns);
 
 	});
 
-	/*$('.play-work').on('click', function(e) {
-		e.preventDefault();
-		$('.video-drop').fadeIn();
-		$('.video-drop .close_i').addClass('active');
-		var video = $(".video-drop video").get(0);
-		video.play();
-	});*/
 
 	$('.play-home').on('click', function(e) {
 		e.preventDefault();
@@ -453,17 +306,18 @@ setEqualHeight(columns);
 	$('.contact-header .info .item').on('click', function(e) {
 		e.preventDefault();
 		var parent = $(this).closest('.info');
-		$('.map').fadeIn(500, function() {
+			jQuery('.map').addClass('show');
 			if ($('.map').length) {
-				initialize(parent.data('lat'), parent.data('lng'));
+				//initi
 			}
-		});
+	
 		$('.map .close_i').addClass('active');
 	});
 
 	$('.map .close_i').on('click', function(e) {
 		e.preventDefault();
-		$('.map').fadeOut();
+//		jQuery('.map').css({'opacity':0,'display':'none'});
+		jQuery('.map').removeClass('show');
 		$('.map .close_i').removeClass('active');
 	});
 
