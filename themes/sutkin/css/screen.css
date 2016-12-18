@@ -2636,6 +2636,7 @@ footer {
 	height: 100vh;
 	position: relative;
 	overflow: hidden;
+	min-height: 600px;
 }
 
 .slider-home {
@@ -8200,4 +8201,12 @@ svg#group_blue:hover {}
     font-size: 1rem;
     color: #fff;
     font-family: 'GothamProLight', sans-serif;
+}
+
+.about .slider-home {
+    =: red
+    background: url(/images/cover1.jpg) no-repeat;
+    background: url(/images/cover2.jpg) no-repeat;
+    background-color: #000;
+    background-size: contain;
 }
