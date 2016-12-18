@@ -3964,7 +3964,7 @@ footer {
 
 @media only screen and (max-width: 767px) {
 	.contact-header .slider-contact .tabs .tabs_i.tabs_i-l {
-		left: 55px;
+		left: 0px;
 	}
 	.contact-header .slider-contact .tabs .tabs_i.tabs_i-l .row {
 		left: 6px;
@@ -4024,7 +4024,9 @@ footer {
 @media only screen and (max-width: 767px) {
 	.contact-header .info .item {
 		right: 7px;
-		bottom: -7px;
+		bottom: 73px;
+		width: 100%;
+		text-align: center;
 	}
 }
 
@@ -8189,7 +8191,7 @@ svg#group_blue:hover {}
 
 .park {
     position: absolute;
-    top: 77%;
+    top: 81%;
     z-index: 1;
     left: 0;
     font-size: 20px;
