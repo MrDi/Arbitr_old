@@ -8210,3 +8210,36 @@ svg#group_blue:hover {}
     background-color: #000;
     background-size: contain;
 }
+
+.slider-home .info {
+    color: white;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    top: 26%;
+}
+
+.about_info h1 {
+    font-family: 'AthelasRegular', sans-serif;
+    font-size: 2rem;
+    line-height: 38px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.color_white span.left_el {
+    background: #ffffff;
+}
+
+.color_white > * {
+    color: white;
+}
+
+.color_white span.right_el {
+    background: white;
+}
+
+.about_info p {
+    font-size: 1.1rem;
+    line-height: 1.3rem;
+}
