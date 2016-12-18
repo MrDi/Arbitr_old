@@ -2651,7 +2651,7 @@ footer {
     width: 100%;
     height: 100%;
     top: 0;
-    background: rgba(0, 0, 0, 0.67);
+    background: rgba(0, 0, 0, 0.68);
     left: 0;
 }
 
@@ -8209,6 +8209,9 @@ svg#group_blue:hover {}
     background: url(/images/cover2.jpg) no-repeat;
     background-color: #000;
     background-size: contain;
+    /* background: #f00; */
+    height: inherit;
+    padding-bottom: 8rem;
 }
 
 .slider-home .info {
@@ -8216,7 +8219,8 @@ svg#group_blue:hover {}
     position: relative;
     z-index: 1;
     text-align: center;
-    top: 26%;
+    /* top: 243px; */
+    padding-top: 257px;
 }
 
 .about_info h1 {
@@ -8225,6 +8229,7 @@ svg#group_blue:hover {}
     line-height: 38px;
     text-transform: uppercase;
     color: #fff;
+    margin-bottom: 1rem;
 }
 
 .color_white span.left_el {
@@ -8232,7 +8237,7 @@ svg#group_blue:hover {}
 }
 
 .color_white > * {
-    color: white;
+    color: #d3d3d3;
 }
 
 .color_white span.right_el {
@@ -8240,6 +8245,22 @@ svg#group_blue:hover {}
 }
 
 .about_info p {
-    font-size: 1.1rem;
-    line-height: 1.3rem;
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    padding: 0px 138px;
+    /* margin-bottom: 2rem; */
+}
+
+.about_info .bord_ram p {
+    padding: 25px 21px;
+    border: 1px solid #5971bb;
+    margin: 0 87px;
+}
+
+.bord_ram {
+    margin: 2rem 0;
+}
+
+.home-header.about {
+    height: inherit;
 }
