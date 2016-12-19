@@ -89,3 +89,12 @@ span.right_el {
 	letter-spacing: 3px;
 	padding-bottom: 25px;
 }
+
+
+li {}
+
+.ols li {
+    font-size: 1.3rem;
+    font-family: 'GothamProRegular', sans-serif;
+    color: #5971bb;
+}

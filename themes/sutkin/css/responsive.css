@@ -1,0 +1,41 @@
+@media (max-width: 700px) {
+	.about_info h1 {
+    font-size: 1.2rem;
+}
+	
+	.about_info p {
+    padding: 0;
+}
+
+.about_info .bord_ram p {
+    padding: 3%;
+    margin: 0;
+}
+	
+	
+.flex_block >div {
+    width: 100%;
+}
+
+.flex_block {
+    flex-wrap: wrap;
+}
+
+.name.colors {}
+
+.box_blue {
+    padding: 2%;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.home-partners .list .text ul li {
+    font-size: 1rem;
+    line-height: 1.3rem;
+}
+	
+}
+
+
+
+

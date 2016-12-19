@@ -340,6 +340,7 @@ legend {
 	margin: 0;
 	border: 0;
 	font-size: 1rem;
+	line-height: 1.3rem;
 }
 
 
@@ -3062,7 +3063,7 @@ footer {
 	color: #000;
 	line-height: 1.3rem;
 	font-family: 'GothamProRegular', sans-serif;
-	letter-spacing: 1.6px;
+	letter-spacing: 1px;
 	position: relative;
 	padding-bottom: 14px;
 	font-weight: 500;
@@ -3070,8 +3071,8 @@ footer {
 
 @media only screen and (max-width: 767px) {
 	.home-partners .list .text ul li {
-		font-size: 12px;
-		line-height: 18px;
+		font-size: 1rem;
+		line-height: 1.3rem;
 	}
 }
 
@@ -3283,7 +3284,7 @@ footer {
 
 @media only screen and (max-width: 767px) {
 	.home-partners .list.list-right .text .item {
-		padding-left: 44px;
+		padding-left: 35px;
 	}
 }
 
@@ -8322,6 +8323,7 @@ p {font-family: 'GothamProRegular', sans-serif;}
     text-transform: uppercase;
     letter-spacing: 2px;
     margin: 1rem 0;
+    line-height: 1.9rem;
 }
 
 p {
@@ -8382,7 +8384,8 @@ p {
 .wrap.lawyer.right_image {}
 
 .wrap.lawyer.right_image.not_h {
-    padding: 0;
+    padding-bottom: 0;
+    padding-top: 0;
 }
 
 .place.not_d:after {
@@ -8399,7 +8402,7 @@ p {
 }
 
 .wrap.lawyer.left_image.not_h {
-    padding: 0;
+    padding-top: 0;
 }
 
 .box_blue {
@@ -8408,10 +8411,51 @@ p {
     border: 1px solid #5971bb;
     padding: 1rem 4rem;
     text-align: center;
-    margin-top: 7rem;
+    margin-top: 0rem;
     margin-bottom: 6rem;
 }
 
 .box_blue p {
     margin: 1.5rem 0;
 }
+
+.about .text {
+    float: right;
+    padding-right: 0;
+    padding-bottom: 46px;
+    padding-left: 0px;
+}
+
+.item.ols ol li ul {padding: 15px 0;}
+
+.text {
+    float: right;
+    padding-right: 0;
+    padding-bottom: 46px;
+    padding-left: 0px;
+}
+
+ol {
+    /* list-style: initial; */
+    list-style-type: decimal;
+}
+
+.home-partners .list .text .ols ul li:after {
+    display: none;
+}
+
+.img.img_w {}
+
+.home-partners .list.list-right.list_ab .images {
+    top: 58px;
+}
+
+.list.list-right.list_ab {
+    padding-bottom: 1rem;
+}
+
+.wrap.home-partners.law_b {
+    padding-top: 6rem;
+}
+
+.flex_block {}
