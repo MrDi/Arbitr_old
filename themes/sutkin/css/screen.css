@@ -8274,3 +8274,38 @@ svg#group_blue:hover {}
 p {
     font-family: 'AthelasRegular', sans-serif;
 }
+
+.lawyer_block {
+    background: #252525;
+}
+
+.color_white .title h2 {
+    color: white;
+}
+
+.wrap.lawyer {
+    padding-top: 5rem;
+}
+
+.flex_block {
+    display: flex;
+    padding-top: 4rem;
+}
+
+.flex_block >div {
+    width: 50%;
+}
+
+.left_i {
+    padding-right: 15px;
+}
+
+.right_t {
+    padding-left: 15px;
+}
+
+.left_i.law-1 {
+    background: url(/images/photo.png);
+    background-size: cover;
+    background-position: 0 100%;
+}
