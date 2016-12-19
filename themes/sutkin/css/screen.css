@@ -8384,3 +8384,34 @@ p {
 .wrap.lawyer.right_image.not_h {
     padding: 0;
 }
+
+.place.not_d:after {
+    content: '';
+    display: block;
+    height: 1px;
+    background: rgba(151, 151, 151, 0.43);
+    margin-top: 1rem;
+    width: 48px;
+}
+
+.place.not_d {
+    margin: 1.2rem 0;
+}
+
+.wrap.lawyer.left_image.not_h {
+    padding: 0;
+}
+
+.box_blue {
+    width: 73%;
+    margin: 0 auto;
+    border: 1px solid #5971bb;
+    padding: 1rem 4rem;
+    text-align: center;
+    margin-top: 7rem;
+    margin-bottom: 6rem;
+}
+
+.box_blue p {
+    margin: 1.5rem 0;
+}
