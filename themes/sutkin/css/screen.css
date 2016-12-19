@@ -8374,3 +8374,13 @@ p {
 .left_i {
     background-repeat: no-repeat;
 }
+
+.right_image .flex_block {
+    flex-direction: row-reverse;
+}
+
+.wrap.lawyer.right_image {}
+
+.wrap.lawyer.right_image.not_h {
+    padding: 0;
+}
