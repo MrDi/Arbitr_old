@@ -395,6 +395,7 @@ q {
 	line-height: 38px;
 	text-transform: uppercase;
 	color: #000;
+	text-align: center;
 }
 
 .title h3 {
@@ -8028,6 +8029,7 @@ h3 {
     height: 100%;
     text-align: center;
     z-index: 1;
+    display: none;
 }
 
 .img.img_p img {
@@ -8232,6 +8234,7 @@ svg#group_blue:hover {}
     text-transform: uppercase;
     color: #fff;
     margin-bottom: 1rem;
+    letter-spacing: 3px;
 }
 
 .color_white span.left_el {
