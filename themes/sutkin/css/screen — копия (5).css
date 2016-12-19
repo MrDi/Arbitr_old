@@ -8311,9 +8311,8 @@ p {font-family: 'GothamProRegular', sans-serif;}
 
 .left_i.law-1 {
     background: url(/images/photo.png);
-    background-size: 100%;
+    background-size: cover;
     background-position: 0 100%;
-    background-repeat: no-repeat;
 }
 
 .name.colors {
@@ -8352,25 +8351,13 @@ p {
 
 .white_back_l {
     background: #dadbdb;
-    background: linear-gradient(to top left, #c2c2c2, #e8e8e8);
 }
 
 .text_lawer {
-    min-height: 455px; */
+    min-height: 501px; */
     padding-bottom: 2rem; */
     padding-bottom: 2rem; */
     padding-bottom: 2rem; */
     padding-bottom: 2rem; */
     padding-bottom: 2;
-}
-
-.text_lawer {
-    padding-bottom: 3rem;
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-.left_i {
-    background-repeat: no-repeat;
 }
