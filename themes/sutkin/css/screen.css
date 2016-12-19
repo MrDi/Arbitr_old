@@ -868,7 +868,7 @@ body.menu-open {
 	display: block;
 	position: absolute;
 	left: 50%;
-	top: 56px;
+	top: 50px;
 	-moz-transform: translate(-50%, 0);
 	-ms-transform: translate(-50%, 0);
 	-webkit-transform: translate(-50%, 0);
@@ -2882,6 +2882,7 @@ footer {
 	background: url('../img/icons-s9ff8ab30a2.png') 0 -212px no-repeat;
 	width: 21px;
 	height: 14px;
+	cursor: pointer;
 }
 
 .home-header .slider-home_i .owl-carousel .owl-video-frame {
@@ -8026,7 +8027,7 @@ h3 {
     width: 100%;
     height: 100%;
     text-align: center;
-    z-index: 0;
+    z-index: 1;
 }
 
 .img.img_p img {
@@ -8208,10 +8209,11 @@ svg#group_blue:hover {}
     background: url(/images/cover1.jpg) no-repeat;
     background: url(/images/cover2.jpg) no-repeat;
     background-color: #000;
-    background-size: contain;
+    background-size: 100%;
     /* background: #f00; */
     height: inherit;
-    padding-bottom: 8rem;
+    padding-bottom: 3rem;
+    background-position: 50% -1px;
 }
 
 .slider-home .info {
@@ -8220,7 +8222,7 @@ svg#group_blue:hover {}
     z-index: 1;
     text-align: center;
     /* top: 243px; */
-    padding-top: 257px;
+    padding-top: 246px;
 }
 
 .about_info h1 {
@@ -8245,10 +8247,11 @@ svg#group_blue:hover {}
 }
 
 .about_info p {
-    font-size: 1.2rem;
+    font-size: 1.23rem;
     line-height: 1.6rem;
     padding: 0px 138px;
-    /* margin-bottom: 2rem; */
+    font-family: 'AthelasRegular', sans-serif;
+    margin-bottom: 2rem;
 }
 
 .about_info .bord_ram p {
@@ -8263,4 +8266,8 @@ svg#group_blue:hover {}
 
 .home-header.about {
     height: inherit;
+}
+
+p {
+    font-family: 'AthelasRegular', sans-serif;
 }
