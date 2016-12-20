@@ -1314,7 +1314,7 @@ body.menu-open {
 	top: 50%;
 	left: 31px;
 	color: #ffffff;
-	font-size: 1rem;
+	font-size: 0.8rem;
 	text-transform: uppercase;
 	line-height: 1.4rem;
 	font-family: 'GothamProLight', sans-serif;
@@ -1324,6 +1324,7 @@ body.menu-open {
 	-ms-transform: translate(0, -50%);
 	-webkit-transform: translate(0, -50%);
 	transform: translate(0, -50%);
+	font-weight: 600;
 }
 
 @media only screen and (max-width: 767px) {
@@ -1381,7 +1382,7 @@ body.menu-open {
 	height: 100%;
 	top: 0;
 	left: 0;
-	background: #70bb1f;
+	background: #5971bb;
 }
 
 .no-touch .about-center .list .col:hover:after {
@@ -1390,6 +1391,8 @@ body.menu-open {
 
 .no-touch .about-center .list .col:hover .row p {
 	color: #000;
+	text-align: left;
+	font-weight: 600;
 }
 
 .no-touch .about-center .list .col:hover .row i {
@@ -8476,4 +8479,8 @@ h1.blue_color {
 
 .home-header.about.yur {
     min-height: inherit;
+}
+
+.about-center {
+    padding-top: 2rem;
 }
