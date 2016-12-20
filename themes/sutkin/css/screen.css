@@ -1250,6 +1250,8 @@ body.menu-open {
 	transition: all, 0.3s;
 	height: 113px;
 	overflow: hidden;
+	position: relative;
+	z-index: 999;
 }
 
 @media only screen and (max-width: 767px) {
@@ -1386,7 +1388,7 @@ body.menu-open {
 }
 
 .no-touch .about-center .list .col:hover:after {
-	background: rgba(112, 187, 31, 0.43);
+	background: rgba(89, 113, 187, 0.39);
 }
 
 .no-touch .about-center .list .col:hover .row p {
@@ -8221,7 +8223,7 @@ svg#group_blue:hover {}
     background-size: 100%;
     /* background: #f00; */
     height: inherit;
-    padding-bottom: 3rem;
+    padding-bottom: 6rem;
     background-position: 50% -1px;
 }
 
@@ -8232,6 +8234,8 @@ svg#group_blue:hover {}
     text-align: center;
     /* top: 243px; */
     padding-top: 246px;
+    overflow: visible;
+    z-index: 1;
 }
 
 .about_info h1 {
@@ -8475,10 +8479,12 @@ h1.blue_color {
 .yur .slider-home {
     background: url(/images/cover4.jpg) no-repeat;
     background-size: 100%;
+    overflow: visible;
 }
 
 .home-header.about.yur {
     min-height: inherit;
+    overflow: visible;
 }
 
 .about-center {
